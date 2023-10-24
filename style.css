@@ -1,0 +1,132 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+span, a, label{
+    display: inline-block;
+}
+.box01 {
+    text-align: center;
+    max-width: 1263px;
+    margin: auto;
+    min-height: 100dvh;
+}
+.btn {
+    padding: 5px 15px;
+    background-color: white;
+    margin: 10px;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 20%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+@media(max-width:1263px){
+    .box {
+        width: 33%;
+        height: 360px;
+    }
+}
+@media(max-width:900px){
+    .box {
+        width: 33%;
+        height: 280px;
+    }
+}
+@media(max-width:780px){
+    .box {
+        width: 33%;
+        height: 240px;
+    }
+}
+@media(max-width:650px){
+    .box {
+        width: 33%;
+        height: 200px;
+    }
+}
+@media(max-width:575px){
+    .box {
+        width: 33%;
+        height: 180px;
+    }
+}
+@media(max-width:550px){
+    .box {
+        width: 33%;
+        height: 180px;
+        font-size: 20px;
+    }
+}
+@media(max-width:474px){
+    .box {
+        width: 33%;
+        height: 150px;
+        font-size: 20px;
+    }
+}
+@media(max-width:435px){
+    .box {
+        width: 33%;
+        height: 150px;
+        font-size: 18px;
+    }
+}
+@media(max-width:419px){
+    .box {
+        width: 33%;
+        height: 140px;
+        font-size: 15px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+}
+@media(max-width:350px){
+    .box {
+        width: 33%;
+        height: 110px;
+        font-size: 12px;
+    }
+    .btn {
+        font-size: 17px;
+    }
+}
+@media(max-width:300px){
+    .box {
+        width: 33%;
+        height: 90px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .btn {
+        font-size: 13px;
+    }
+}
+@media(max-width:230px){
+    .box {
+        width: 33%;
+        height: 63px;
+        font-size: 7px;
+        font-weight: 100;
+    }
+    .btn {
+        font-size: 10px;
+        font-weight: normal;
+    }
+}

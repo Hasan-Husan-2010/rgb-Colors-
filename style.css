@@ -21,6 +21,7 @@ span, a, label{
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    margin: 20px;
 }
 .boxs {
     display: flex;

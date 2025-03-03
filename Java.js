@@ -7,10 +7,9 @@ for(let i = 0; i < 105; i++){
     const box_btn = document.createElement('button')
     const box_p = document.createElement('p')
 
-    box_btn.classList.add('btn')
+    box_btn.classList.add('btn2')
     box_p.classList.add('p')
     box_btn.textContent = 'Copy that color'
-    box_btn.style.fontSize = '14px'
     box.classList.add('box');
 
     function generateColor() {

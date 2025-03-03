@@ -22,6 +22,18 @@ span, a, label{
     font-weight: bold;
     cursor: pointer;
     margin: 20px;
+    border-radius: 5px;
+}
+.btn2 {
+    padding: 5px 15px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
 }
 .boxs {
     display: flex;
@@ -66,7 +78,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media(max-width:1263px){
+@media(max-width:1000px){
     .box {
         width: 33%;
         height: 360px;
@@ -95,6 +107,9 @@ body::-webkit-scrollbar-thumb {
         width: 33%;
         height: 180px;
     }
+    .btn {
+        font-size: 23px;
+    }
 }
 @media(max-width:550px){
     .box {
@@ -103,60 +118,71 @@ body::-webkit-scrollbar-thumb {
         font-size: 20px;
     }
 }
-@media(max-width:474px){
+@media(max-width:480px){
     .box {
         width: 33%;
+        margin: 0 auto;
         height: 150px;
         font-size: 20px;
+    }
+    .btn2 {
+        font-size: 10px;
     }
 }
 @media(max-width:435px){
     .box {
-        width: 33%;
+        width: 50%;
         height: 150px;
         font-size: 18px;
+    }
+    .btn2 {
+        font-size: 10px;
     }
 }
 @media(max-width:419px){
     .box {
-        width: 33%;
+        width: 50%;
         height: 140px;
         font-size: 15px;
+    }
+    .btn {
+        font-size: 22px;
+    }
+}
+@media(max-width:350px){
+    .box {
+        width: 50%;
+        height: 110px;
+        font-size: 12px;
     }
     .btn {
         font-size: 20px;
     }
 }
-@media(max-width:350px){
-    .box {
-        width: 33%;
-        height: 110px;
-        font-size: 12px;
-    }
-    .btn {
-        font-size: 17px;
-    }
-}
 @media(max-width:300px){
     .box {
-        width: 33%;
+        width: 100%;
         height: 90px;
         font-size: 10px;
         font-weight: 300;
     }
     .btn {
-        font-size: 13px;
+        font-size: 17px;
+    }
+    .p {
+        font-size: 17px;
+        font-weight: bold;
     }
 }
 @media(max-width:230px){
     .box {
-        width: 33%;
+        width: 100%;
         height: 63px;
         font-size: 7px;
         font-weight: 100;
     }
     .btn {
-        font-size: 10px;
+        font-size: 20px;
         font-weight: normal;
     }
 }
